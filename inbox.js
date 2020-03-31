@@ -52,3 +52,16 @@ function solve(input) {
   //     }
   //   }
 }
+solve([
+  "Add->Mike",
+  "Add->George",
+  "Send->George->Hello World",
+  "Send->George->Your loan is overdue",
+  "Add->Mike",
+  "Send->Mike->Hello, do you want to meet up tomorrow?",
+  "Delete->Peter",
+  "Send->George->I'm busy",
+  "Send->Mike->Another random test mail",
+  "Delete->George",
+  "Statistics"
+]);
